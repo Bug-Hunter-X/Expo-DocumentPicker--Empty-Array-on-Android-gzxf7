@@ -1,0 +1,1 @@
+This bug occurs when using the Expo DocumentPicker API on Android devices.  The issue is that the picker sometimes returns an empty array even when the user successfully selects a file. This results in unexpected behavior in the app, as there's no file data to process.
